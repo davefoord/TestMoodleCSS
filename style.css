@@ -1,1 +1,85 @@
-
+ /*creates flex box for the front page buttons*/
+  .frontpage-container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  /*The front page buttons use the following section of CSS for their general behaviour, then use color1, color 2 (below) to specify the starting colour*/
+  .frontpage-item {
+  display: flex;
+   align-items: center;
+  justify-content: center;
+   width: 220px;
+   height: 75px;
+  margin: 5px;
+  color:white !important;
+  }
+  
+  .frontpage-item:hover {
+   background-color: #80edb2;
+  }
+  
+  /*The LARGE front page buttons use the following section of CSS for their general behaviour, then use color1, color 2 (below) to specify the starting colour*/
+  .frontpage-item-large {
+  display: flex;
+   align-items: center;
+  justify-content: center;
+   width: 330px;
+   height: 100px;
+  margin: 5px;
+  border-radius: 10px;
+  color:white !important;
+  box-shadow: 10px 10px 5px grey;
+  }
+  
+  .frontpage-item-large:hover {
+   background-color: #80edb2;
+  }
+  
+  .color1{
+  background-color: #52adf5;
+  }
+  .bordercolor1{
+  border-color: #52adf5;
+  }
+  
+  .color2{
+  background-color: #281e32;
+  }
+  
+  .color3{
+  background-color: #66d463;
+  }
+  .bordercolor3{
+  border-color: #66d463;
+  }
+  
+  .color4{
+  background-color: #75b62a;
+  }
+  
+  .color5{
+  background-color: #302682;
+  }
+  
+  .color6{
+  background-color: #2250e3;
+  }
+  
+  .color7{
+  background-color: #000000;
+  }
+  
+  .color8{
+  background-color: #999999;
+  }
+  
+  /*This is the grey color for buttons under development*/
+  .color0{
+  background-color: #999999;
+  font-size: 14px !important;
+  }
+  
+  /*End of the front page buttons section*/
